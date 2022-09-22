@@ -4,23 +4,24 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Integration - Challenge 1</title>
+	<meta name="description" content="Portfolio de Raphael Cochrane">
+	<title>Integration - Challenge 2</title>
 </head>
 <body>
 	<header>
-		<h1>Mon portfolio</h1>
+		<h1 id="urlTop">Mon portfolio</h1>
 		<nav>
 			<ul>
-				<li><a href="#urlprojets">Projets</a></li>
-				<li><a href="#urletudes">Etudes</a></li>
-				<li><a href="#Articles">Articles</a></li>
-				<li><a href="#Contact">Contact</a></li>
+				<li><a href="#urlProjets">Projets</a></li>
+				<li><a href="#urlEtudes">Etudes</a></li>
+				<li><a href="#urlArticles">Articles</a></li>
+				<li><a href="#urlContact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
 		<section>
-			<h2>Projets réalisés</h2>
+			<h2 id="urlProjets">Projets réalisés</h2>
 			<img src="https://via.placeholder.com/150
 			C/O https://placeholder.com/" alt="projet 1">
 			<h3>Projet 1</h3>
@@ -40,7 +41,7 @@
 		</section>
 		<section>
 			<div>
-				<h2>Etudes</h2>
+				<h2 id="urlEtudes">Etudes</h2>
 				<img src="images/stressedStudent.jpeg" alt="stressedStudent">
 				<ul>
 					<li>Nom</li>
@@ -70,7 +71,7 @@
 			</div>
 		</section>
 		<section>
-			<h2>Articles</h2>
+			<h2 id="urlArticles">Articles</h2>
 			<div>
 				<div>
 					<img src="https://via.placeholder.com/150
@@ -109,15 +110,12 @@
 			</div>
 		</section>
 		<section>
-			<h2>Contact</h2>
+			<h2 id="urlContact">Contact</h2>
 			<div></div>
 			<div></div>
 			<div>
-				<label for="story">Message :</label>
-
-				<textarea id="story" name="story" rows="5" cols="33"> 
-					Tapez votre message
-				</textarea>
+				<label for="message">Message :</label>
+				<textarea type="text" id="message" rows="4" cols="50" placeholder="Tapez votre message"></textarea>
 			</div>
 			<div>
 				<input type="button" value="Envoyer">
@@ -132,7 +130,7 @@
 		</a>
 		<p>Clique pour me faire des gratouilles stp</p>	
 		<p>
-			monportfolio.com
+			<a href="#urlTop">monportfolio.com</a>
 		</p>
 	</footer>
 </body>
