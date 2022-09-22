@@ -1,0 +1,13 @@
+img:hover {
+    opacity: 50%;
+}
+img {
+    border-radius: 3px;
+}
+img:hover:last-child {
+    filter: grayscale(10)
+}
+
+:root {
+    --hauteur-menu: 60px;
+}
