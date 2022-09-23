@@ -11,21 +11,32 @@
 </head>
 <body>
 	<header>
-		<h1 id="urlTop">Mon portfolio</h1>
 		<div>
-			<nav>
-				<ul>
-					<li class="menu-deroulant"><a href="#urlProjets">Projets réalisés</a>
-						<ul class="sous-menu">
-							<li><a href="#urlProjet1">Projet 1</a></li>
-							<li><a href="#urlProjet2">Projet 2</a></li>
-							<li><a href="#urlProjet3">Projet 3</a></li>
-						</ul>
-					</li>
-					<li><a href="#urlEtudes">Etudes</a></li>
-					<li><a href="#urlArticles">Articles</a></li>
-					<li><a href="#urlContact">Contact</a></li>
-				</ul>
+			<h1 id="urlTop">Mon portfolio</h1>
+		</div>
+		<div>
+			<nav> <!-- navbar à mettre en sticky-->
+				<div class="dropdown">
+					<a href="#urlProjets">Projets réalisés</a>
+					<div class="dropdown-content">
+						<a href="#urlProjet1">Projet 1</a>
+						<a href="#urlProjet2">Projet 2</a>
+						<a href="#urlProjet3">Projet 3</a>
+					</div>
+				</div>
+				<div>
+					<a href="#urlEtudes">Etudes</a>
+				</div>
+				<div class="dropdown">
+					<a href="#urlArticles">Articles</a>
+					<div class="dropdown-content">
+						<a href="#urlArticle1">Article 1</a>
+						<a href="#urlArticle2">Article 2</a>
+					</div>
+				</div>
+				<div>
+					<a href="#urlContact">Contact</a>
+				</div>
 			</nav>
 		</div>
 	</header>
@@ -89,7 +100,7 @@
 			C/O https://placeholder.com/" alt="placeholder 2">
 				</div>
 				<div>
-					<div>
+					<div id="urlArticle1">
 						<p>
 							Article 1
 						</p>
@@ -108,7 +119,7 @@
 			C/O https://placeholder.com/" alt="placeholder 2">
 				</div>
 				<div>
-					<div>
+					<div id="urlArticle2">
 						<p>
 							Article 2
 						</p>
