@@ -7,55 +7,136 @@
 	<meta name="description" content="Portfolio de Raphael Cochrane">
 	<title>Integration - Branche Test</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
 </head>
 <body>
 	<div class="menu-wrap">
 		<input type="checkbox" class="toggler" />
-		<div class="hamburger"><div></div></div>
+		<div class="hamburger">
+			<div>
+			</div>
+		</div>
 			<div class="menu">
 				<div>
 					<div>
 						<ul>
-							<li><a href="#urlhome">Home</a></li>
-							<li><a href="#urlprojects">Projects</a></li>
-							<li><a href="#urlaboutme">About me</a></li>
-							<li><a href="#urlcontact">Contact</a></li>
+							<li>
+								<a href="#urlhome">Home</a>
+							</li>
+							<li>
+								<a href="#urlprojects">Projects</a>
+							</li>
+							<li>
+								<a href="#urlaboutme">About me</a>
+							</li>
+							<li>
+								<a href="#urlcontact">Contact</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
   
 	  <header class="showcase" id="urlhome">
 		<div class="container showcase-inner">
-		  <h1>Mon portfolio</h1>
+		  <h1>Plot Twist !</h1>
 		  <p>
-			Ceci est mon portfolio
+			Ceci n'est pas un portfolio
 		  </p>
 		  <a href="#" class="btn">En savoir plus</a>
 		</div>
 	  </header>
 	<main>
-		<div id="urlprojects">
+		<div id="urlprojects" class="container">
 			<h2>Projets</h2>
+			<div class="projectscontainer">
+				<div>
+					<a href="#">
+						<img src="http://placekitten.com/300/300" alt="placeholder too choupi">
+					</a>
+					<h3>Titre projet 1</h3>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+						<img src="http://placekitten.com/300/300" alt="placeholder too choupi">
+					</a>
+					<h3>Titre projet 2</h3>
+				</div>
+				<div>
+					<a href="#">
+						<img src="http://placekitten.com/300/300" alt="placeholder too choupi">
+					</a>
+					<h3>Titre projet 3</h3>
+				</div>
+			</div>
 		</div>
-		<div id="urlaboutme">
+		<div id="urlaboutme" class="container">
 			<h2>About me</h2>
+			<section>
+				<ul>
+					<li>
+						<p>Date 1 : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, est consectetur harum minima nulla tenetur laborum quod dicta voluptatum, omnis non consequuntur beatae quidem fuga earum, saepe velit ea mollitia!</p>
+					</li>
+					<li>
+						<p>Date 2 : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, est consectetur harum minima nulla tenetur laborum quod dicta voluptatum, omnis non consequuntur beatae quidem fuga earum, saepe velit ea mollitia!</p>
+					</li>
+					<li>
+						<p>Date 3 : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, est consectetur harum minima nulla tenetur laborum quod dicta voluptatum, omnis non consequuntur beatae quidem fuga earum, saepe velit ea mollitia!</p>
+					</li>
+					<li>
+						<p>Date 4 : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, est consectetur harum minima nulla tenetur laborum quod dicta voluptatum, omnis non consequuntur beatae quidem fuga earum, saepe velit ea mollitia!</p>
+					</li>
+				</ul>
+			</section>
 		</div>
-		<div id="urlcontact">
+		<div id="urlcontact" class="container">
 			<h2>Contact</h2>
+			<section id="contact">
+				<div class="contact-box">
+				  <div class="contact-links">
+					<h2>CONTACT</h2>
+					<div class="links">
+					  <div class="link">
+						<a><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
+					  </div>
+					  <div class="link">
+						<a><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
+					  </div>
+					  <div class="link">
+						<a><img src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen"></a>
+					  </div>
+					  <div class="link">
+						<a><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="contact-form-wrapper">
+					<form>
+					  <div class="form-item">
+						<input type="text" name="sender" required>
+						<label>Name:</label>
+					  </div>
+					  <div class="form-item">
+						<input type="text" name="email" required>
+						<label>Email:</label>
+					  </div>
+					  <div class="form-item">
+						<textarea class="" name="message" required></textarea>
+						<label>Message:</label>
+					  </div>
+					  <button class="submit-btn">Send</button>  
+					</form>
+				  </div>
+				</div>
+			  </section>
 		</div>
 	</main>
 	
 
-	<footer>
-		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-			<img src="http://placekitten.com/300/300" alt="placeholder too choupi">
-		</a>
-		<p>Clique pour me faire des gratouilles stp</p>	
-		<p>
+	<footer>	
 			<a href="#urlTop">monportfolio.com</a>
-		</p>
 	</footer>
 </body>
 
