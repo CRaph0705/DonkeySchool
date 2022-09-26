@@ -8,14 +8,15 @@
 }
 
 body {
-  background-color: #6a9ac4;
+  background-color: grey;
 }
 
 #contact {
-  background-color: #6a9ac4;
+  background-color: rgb(15, 15, 15);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15%;
 }
 
 .contact-box {
@@ -51,7 +52,7 @@ body {
 }
 
 .contact-form-wrapper {
-  background-color: #ffffff8f;
+  background-color: #ffffff00;
   border-radius: 0 10px 10px 0;
 }
 
@@ -158,7 +159,7 @@ textarea:valid+label {
 }
 
 .submit-btn {
-  background-color: #fd917e;
+  background-color: #000000;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
   font-family: "Poppins",sans-serif;
